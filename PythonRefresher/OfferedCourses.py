@@ -49,7 +49,7 @@ courses = {
                            'teacher': 'Jasper'},
                      }
     }
-
+    
 
 def when_offered(courses, course):
     # TODO: Fill out the function here.
@@ -64,3 +64,6 @@ print(when_offered(courses, 'cs101'))
 # Correct result: 
 # ['fall2020', 'spring2020']
 
+print(when_offered(courses, 'bio893'))
+# Correct result: 
+# []
